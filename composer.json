@@ -1,0 +1,22 @@
+{
+    "name": "jeffersoncechinel/mpdf-example",
+    "description": "Usage example for PHP mPDF Library",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Cechinel",
+            "email": "jefferson@febacapital.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "mpdf/mpdf": "^6.1"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JC\\Mpdf\\": "src/"
+        }
+    }
+}
